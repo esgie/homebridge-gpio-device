@@ -30,7 +30,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "node-wiring-pi": "0.0.5"
+    "node-wiring-pi": "builtwithpiper/node-wiring-pi"
   },
   "deprecated": false,
   "description": "Homebridge plugin exposing devices plugged on GPIO",
