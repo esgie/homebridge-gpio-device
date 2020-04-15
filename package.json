@@ -1,27 +1,54 @@
 {
-  "name": "homebridge-gpio-device",
-  "version": "0.4.4",
-  "description": "Homebridge plugin exposing devices plugged on GPIO",
-  "main": "index.js",
-  "keywords": [
-    "homebridge-plugin",
-    "gpio"
+  "_from": "homebridge-gpio-device",
+  "_id": "homebridge-gpio-device@0.4.5",
+  "_inBundle": false,
+  "_integrity": "sha512-tKE2tXeliLC/b+FtflpxRPdJKue6RX7WC0tmh+ef+Xc3/PC7ysdIwp+nea0oWkqwLNF3eBLAjZuLmaYwPc+tXg==",
+  "_location": "/homebridge-gpio-device",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "homebridge-gpio-device",
+    "name": "homebridge-gpio-device",
+    "escapedName": "homebridge-gpio-device",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/dubocr/homebridge-gpio-device.git"
+  "_resolved": "https://registry.npmjs.org/homebridge-gpio-device/-/homebridge-gpio-device-0.4.5.tgz",
+  "_shasum": "89d49bc893c0f38c2ac9ee0aff1dcd9aad08b11d",
+  "_spec": "homebridge-gpio-device",
+  "_where": "/tmp",
+  "author": {
+    "name": "Romain DUBOC"
   },
   "bugs": {
     "url": "http://github.com/dubocr/homebridge-gpio-device/issues"
   },
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-wiring-pi": "0.0.5"
+  },
+  "deprecated": false,
+  "description": "Homebridge plugin exposing devices plugged on GPIO",
   "engines": {
-    "node": ">=0.12.0",
-    "homebridge": ">=0.2.0"
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
   },
   "homepage": "https://github.com/dubocr/homebridge-gpio-device#readme",
-  "author": "Romain DUBOC",
+  "keywords": [
+    "homebridge-plugin",
+    "gpio"
+  ],
   "license": "ISC",
-  "dependencies": {
-    "node-wiring-pi": "buildwithpiper/node-wiring-pi"
-  }
+  "main": "index.js",
+  "name": "homebridge-gpio-device",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dubocr/homebridge-gpio-device.git"
+  },
+  "version": "0.4.5"
 }
